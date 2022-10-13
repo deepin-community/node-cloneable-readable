@@ -1,0 +1,3 @@
+set -e
+tape test.js
+rm -rf out

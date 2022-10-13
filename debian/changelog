@@ -1,0 +1,59 @@
+node-cloneable-readable (2.0.1-3) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstable after successful tests
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 11 Jan 2020 09:38:42 +0100
+
+node-cloneable-readable (2.0.1-2) experimental; urgency=medium
+
+  * Team upload
+  * Install "big" file in autopkgtest tree (fixes debci)
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 02 Dec 2019 06:57:42 +0100
+
+node-cloneable-readable (2.0.1-1) experimental; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * New upstream version 2.0.1
+  * Remove patch
+  * Fix install
+  * Update test
+  * Update dependencies:
+    + remove node-process-nextick-args and node-through2
+    + add node-readable-stream ≥ 3.3.0
+  * Update description
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 25 Nov 2019 23:22:53 +0100
+
+node-cloneable-readable (1.0.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:42:27 +0200
+
+node-cloneable-readable (1.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Enable tape test using pkg-js-tools
+  * Add upstream/metadata
+  * Fix nextick calls. Thanks to Mauricio Faria de Oliveira (Closes: #909151)
+  * Fix d/copyright format
+  * Fix VCS fields
+  * Change section to javascript
+  * Declare compliance with policy 4.3.0
+  * Bump debhelper compatibility level to 11
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 19 Feb 2019 23:23:10 +0100
+
+node-cloneable-readable (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #845970)
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 27 Nov 2016 16:55:21 +0530

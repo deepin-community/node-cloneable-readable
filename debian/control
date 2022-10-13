@@ -1,0 +1,28 @@
+Source: node-cloneable-readable
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Priority: optional
+Testsuite: autopkgtest-pkg-nodejs
+Build-Depends: debhelper-compat (= 12),
+               dh-buildinfo,
+               nodejs,
+               node-flush-write-stream,
+               node-from2,
+               node-tape,
+               node-readable-stream (>= 3.3.0),
+               pkg-js-tools (>= 0.8.6)
+Standards-Version: 4.4.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-cloneable-readable
+Vcs-Git: https://salsa.debian.org/js-team/node-cloneable-readable.git
+Homepage: https://github.com/mcollina/cloneable-readable#readme
+Rules-Requires-Root: no
+
+Package: node-cloneable-readable
+Architecture: all
+Depends: ${misc:Depends},
+         nodejs,
+         node-inherits,
+         node-readable-stream (>= 3.3.0)
+Description: node.js library to clone safely a Readable stream
+ clonable-readable implements a "right" way to clone a Readable.
