@@ -1,0 +1,31 @@
+{
+    "name": "@types/cloneable-readable",
+    "version": "2.0.0",
+    "description": "TypeScript definitions for cloneable-readable",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Nikita Volodin",
+            "url": "https://github.com/qlonik",
+            "githubUsername": "qlonik"
+        },
+        {
+            "name": "Oleg Vaskevich",
+            "url": "https://github.com/vaskevich",
+            "githubUsername": "vaskevich"
+        }
+    ],
+    "main": "",
+    "types": "index",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/cloneable-readable"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/node": "*"
+    },
+    "typesPublisherContentHash": "98ab515a78d889f545fb397579d26e55891c7963e872b04fba08daa1ddd806af",
+    "typeScriptVersion": "2.2"
+}
