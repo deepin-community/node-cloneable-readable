@@ -2,6 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: cloneable-readable
 Upstream-Contact: https://github.com/mcollina/cloneable-readable/issues
 Source: https://github.com/mcollina/cloneable-readable#readme
+ https://registry.npmjs.org/@types/cloneable-readable
 
 Files: *
 Copyright: 2016 Matteo Collina <hello@matteocollina.com>
@@ -9,6 +10,10 @@ License: Expat
 
 Files: debian/*
 Copyright: 2016 Pirate Praveen <praveen@debian.org>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat
